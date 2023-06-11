@@ -11,7 +11,7 @@ public class SpringazuredemoApplication {
 
 	@GetMapping("/message")
 	public String message(){
-		return "COngreats ! you app depolyed successfully in Azure !";
+		return "Congreats ! your app depolyed successfully in Azure Platform!";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringazuredemoApplication.class, args);
